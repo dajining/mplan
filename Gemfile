@@ -102,12 +102,15 @@ group :development do
   gem 'spring'
   # rspec command for spring (https://github.com/jonleighton/spring-commands-rspec)
   gem 'spring-commands-rspec'
+  # RuboCop command for Spring (https://github.com/p0deje/spring-commands-rubocop)
   gem 'spring-commands-rubocop'
   # Makes spring watch files using the listen gem. (https://github.com/jonleighton/spring-watcher-listen)
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   # Automatic Ruby code style checking tool. (https://github.com/bbatsov/rubocop)
   gem 'rubocop', require: false
+  # Code style checking for RSpec files (http://github.com/backus/rubocop-rspec)
+  gem 'rubocop-rspec'
 
   # Guard keeps an eye on your file modifications (http://guardgem.org)
   gem 'guard'

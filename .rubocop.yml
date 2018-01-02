@@ -1,0 +1,11 @@
+require: rubocop-rspec
+
+AllCops:
+  DisplayStyleGuide: true
+  StyleGuideCopsOnly: true
+  CacheRootDirectory: tmp/cache
+
+Metrics/LineLength:
+  Max: 120
+  IgnoredPatterns:
+    - '\A(\s+)#'
