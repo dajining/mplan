@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
 
@@ -37,7 +37,7 @@ gem 'webpacker'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development test do
+group :development, :test do
   # Pretty print Ruby objects with proper indentation and colors (https://github.com/awesome-print/awesome_print)
   gem 'awesome_print'
   # Ruby fast debugger - base + CLI (http://github.com/deivid-rodriguez/byebug)
