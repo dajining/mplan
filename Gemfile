@@ -102,6 +102,7 @@ group :development do
   gem 'spring'
   # rspec command for spring (https://github.com/jonleighton/spring-commands-rspec)
   gem 'spring-commands-rspec'
+  gem 'spring-commands-rubocop'
   # Makes spring watch files using the listen gem. (https://github.com/jonleighton/spring-watcher-listen)
   gem 'spring-watcher-listen', '~> 2.0.0'
 
@@ -114,6 +115,8 @@ group :development do
   gem 'guard-rspec', require: false
   # Guard plugin for RuboCop (https://github.com/yujinakayama/guard-rubocop)
   gem 'guard-rubocop'
+  # Guard::Spring starts, stops, and restarts Spring. The plugin ensures that Spring is not left running when Guard is stopped. (https://github.com/mknapik/guard-spring)
+  gem 'guard-spring'
 end
 
 group :test do
