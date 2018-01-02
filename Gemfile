@@ -29,6 +29,13 @@ gem 'uglifier', '>= 1.3.0'
 # Use webpack to manage app-like JavaScript modules in Rails (https://github.com/rails/webpacker)
 gem 'webpacker'
 
+# A GraphQL language and runtime for Ruby (http://github.com/rmosolgo/graphql-ruby)
+gem 'graphql'
+# A query batching executor for the graphql gem (https://github.com/Shopify/graphql-batch)
+gem 'graphql-batch'
+# A mountable GraphiQL endpoint for Rails (http://github.com/rmosolgo/graphiql-rails)
+gem 'graphiql-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password

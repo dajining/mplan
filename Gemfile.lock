@@ -88,6 +88,12 @@ GEM
     formatador (0.2.5)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    graphiql-rails (1.4.8)
+      rails
+    graphql (1.7.7)
+    graphql-batch (0.3.8)
+      graphql (>= 0.8, < 2)
+      promise.rb (~> 0.7.2)
     guard (2.14.1)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -139,6 +145,7 @@ GEM
     parser (2.4.0.2)
       ast (~> 2.3)
     powerpack (0.1.1)
+    promise.rb (0.7.4)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -321,6 +328,9 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   database_cleaner
   factory_bot_rails
+  graphiql-rails
+  graphql
+  graphql-batch
   guard
   guard-rspec
   guard-rubocop
